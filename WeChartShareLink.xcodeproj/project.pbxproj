@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE2765AF19BEF5380028100A /* image@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2765AE19BEF5380028100A /* image@2x.png */; };
+		CE2765B119BEF5610028100A /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2765B019BEF5610028100A /* image.png */; };
+		CE6829AB19BEA05200FC874F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6829AA19BEA05200FC874F /* main.m */; };
+		CE6829AE19BEA05200FC874F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6829AD19BEA05200FC874F /* AppDelegate.m */; };
+		CE6829B119BEA05200FC874F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6829B019BEA05200FC874F /* ViewController.m */; };
+		CE6829B419BEA05200FC874F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6829B219BEA05200FC874F /* Main.storyboard */; };
+		CE6829B619BEA05200FC874F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE6829B519BEA05200FC874F /* Images.xcassets */; };
+		CE6829C219BEA05200FC874F /* WeChartShareLinkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6829C119BEA05200FC874F /* WeChartShareLinkTests.m */; };
+		CE6829CF19BEA32800FC874F /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6829CC19BEA32800FC874F /* libWeChatSDK.a */; };
+		CE6829D219BED59400FC874F /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6829D119BED59400FC874F /* RootViewController.m */; };
+		CE6829D419BEDE1200FC874F /* mid.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6829D319BEDE1200FC874F /* mid.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE6829BC19BEA05200FC874F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE68299D19BEA05200FC874F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE6829A419BEA05200FC874F;
+			remoteInfo = WeChartShareLink;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE2765AE19BEF5380028100A /* image@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image@2x.png"; sourceTree = "<group>"; };
+		CE2765B019BEF5610028100A /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
+		CE6829A519BEA05200FC874F /* WeChartShareLink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeChartShareLink.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE6829A919BEA05200FC874F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE6829AA19BEA05200FC874F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE6829AC19BEA05200FC874F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE6829AD19BEA05200FC874F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE6829AF19BEA05200FC874F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CE6829B019BEA05200FC874F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CE6829B319BEA05200FC874F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE6829B519BEA05200FC874F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CE6829BB19BEA05200FC874F /* WeChartShareLinkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeChartShareLinkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE6829C019BEA05200FC874F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE6829C119BEA05200FC874F /* WeChartShareLinkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeChartShareLinkTests.m; sourceTree = "<group>"; };
+		CE6829CC19BEA32800FC874F /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		CE6829CD19BEA32800FC874F /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		CE6829CE19BEA32800FC874F /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		CE6829D019BED59400FC874F /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		CE6829D119BED59400FC874F /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		CE6829D319BEDE1200FC874F /* mid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mid.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE6829A219BEA05200FC874F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE6829CF19BEA32800FC874F /* libWeChatSDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE6829B819BEA05200FC874F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE68299C19BEA05200FC874F = {
+			isa = PBXGroup;
+			children = (
+				CE6829A719BEA05200FC874F /* WeChartShareLink */,
+				CE6829BE19BEA05200FC874F /* WeChartShareLinkTests */,
+				CE6829A619BEA05200FC874F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE6829A619BEA05200FC874F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE6829A519BEA05200FC874F /* WeChartShareLink.app */,
+				CE6829BB19BEA05200FC874F /* WeChartShareLinkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE6829A719BEA05200FC874F /* WeChartShareLink */ = {
+			isa = PBXGroup;
+			children = (
+				CE6829AC19BEA05200FC874F /* AppDelegate.h */,
+				CE6829AD19BEA05200FC874F /* AppDelegate.m */,
+				CE6829AF19BEA05200FC874F /* ViewController.h */,
+				CE6829B019BEA05200FC874F /* ViewController.m */,
+				CE6829D019BED59400FC874F /* RootViewController.h */,
+				CE6829D119BED59400FC874F /* RootViewController.m */,
+				CE6829D319BEDE1200FC874F /* mid.png */,
+				CE2765B019BEF5610028100A /* image.png */,
+				CE2765AE19BEF5380028100A /* image@2x.png */,
+				CE6829CB19BEA32800FC874F /* WeChatSDK_1.4-2.3 */,
+				CE6829B219BEA05200FC874F /* Main.storyboard */,
+				CE6829B519BEA05200FC874F /* Images.xcassets */,
+				CE6829A819BEA05200FC874F /* Supporting Files */,
+			);
+			path = WeChartShareLink;
+			sourceTree = "<group>";
+		};
+		CE6829A819BEA05200FC874F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE6829A919BEA05200FC874F /* Info.plist */,
+				CE6829AA19BEA05200FC874F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE6829BE19BEA05200FC874F /* WeChartShareLinkTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE6829C119BEA05200FC874F /* WeChartShareLinkTests.m */,
+				CE6829BF19BEA05200FC874F /* Supporting Files */,
+			);
+			path = WeChartShareLinkTests;
+			sourceTree = "<group>";
+		};
+		CE6829BF19BEA05200FC874F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE6829C019BEA05200FC874F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE6829CB19BEA32800FC874F /* WeChatSDK_1.4-2.3 */ = {
+			isa = PBXGroup;
+			children = (
+				CE6829CC19BEA32800FC874F /* libWeChatSDK.a */,
+				CE6829CD19BEA32800FC874F /* WXApi.h */,
+				CE6829CE19BEA32800FC874F /* WXApiObject.h */,
+			);
+			path = "WeChatSDK_1.4-2.3";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE6829A419BEA05200FC874F /* WeChartShareLink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE6829C519BEA05200FC874F /* Build configuration list for PBXNativeTarget "WeChartShareLink" */;
+			buildPhases = (
+				CE6829A119BEA05200FC874F /* Sources */,
+				CE6829A219BEA05200FC874F /* Frameworks */,
+				CE6829A319BEA05200FC874F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeChartShareLink;
+			productName = WeChartShareLink;
+			productReference = CE6829A519BEA05200FC874F /* WeChartShareLink.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE6829BA19BEA05200FC874F /* WeChartShareLinkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE6829C819BEA05200FC874F /* Build configuration list for PBXNativeTarget "WeChartShareLinkTests" */;
+			buildPhases = (
+				CE6829B719BEA05200FC874F /* Sources */,
+				CE6829B819BEA05200FC874F /* Frameworks */,
+				CE6829B919BEA05200FC874F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE6829BD19BEA05200FC874F /* PBXTargetDependency */,
+			);
+			name = WeChartShareLinkTests;
+			productName = WeChartShareLinkTests;
+			productReference = CE6829BB19BEA05200FC874F /* WeChartShareLinkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE68299D19BEA05200FC874F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = jianguo;
+				TargetAttributes = {
+					CE6829A419BEA05200FC874F = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					CE6829BA19BEA05200FC874F = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = CE6829A419BEA05200FC874F;
+					};
+				};
+			};
+			buildConfigurationList = CE6829A019BEA05200FC874F /* Build configuration list for PBXProject "WeChartShareLink" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE68299C19BEA05200FC874F;
+			productRefGroup = CE6829A619BEA05200FC874F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE6829A419BEA05200FC874F /* WeChartShareLink */,
+				CE6829BA19BEA05200FC874F /* WeChartShareLinkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE6829A319BEA05200FC874F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE6829D419BEDE1200FC874F /* mid.png in Resources */,
+				CE6829B419BEA05200FC874F /* Main.storyboard in Resources */,
+				CE6829B619BEA05200FC874F /* Images.xcassets in Resources */,
+				CE2765AF19BEF5380028100A /* image@2x.png in Resources */,
+				CE2765B119BEF5610028100A /* image.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE6829B919BEA05200FC874F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE6829A119BEA05200FC874F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE6829B119BEA05200FC874F /* ViewController.m in Sources */,
+				CE6829AE19BEA05200FC874F /* AppDelegate.m in Sources */,
+				CE6829D219BED59400FC874F /* RootViewController.m in Sources */,
+				CE6829AB19BEA05200FC874F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE6829B719BEA05200FC874F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE6829C219BEA05200FC874F /* WeChartShareLinkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE6829BD19BEA05200FC874F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE6829A419BEA05200FC874F /* WeChartShareLink */;
+			targetProxy = CE6829BC19BEA05200FC874F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE6829B219BEA05200FC874F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE6829B319BEA05200FC874F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE6829C319BEA05200FC874F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE6829C419BEA05200FC874F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE6829C619BEA05200FC874F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = WeChartShareLink/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WeChartShareLink/WeChatSDK_1.4-2.3",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CE6829C719BEA05200FC874F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = WeChartShareLink/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WeChartShareLink/WeChatSDK_1.4-2.3",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CE6829C919BEA05200FC874F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WeChartShareLinkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeChartShareLink.app/WeChartShareLink";
+			};
+			name = Debug;
+		};
+		CE6829CA19BEA05200FC874F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WeChartShareLinkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeChartShareLink.app/WeChartShareLink";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE6829A019BEA05200FC874F /* Build configuration list for PBXProject "WeChartShareLink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE6829C319BEA05200FC874F /* Debug */,
+				CE6829C419BEA05200FC874F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE6829C519BEA05200FC874F /* Build configuration list for PBXNativeTarget "WeChartShareLink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE6829C619BEA05200FC874F /* Debug */,
+				CE6829C719BEA05200FC874F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE6829C819BEA05200FC874F /* Build configuration list for PBXNativeTarget "WeChartShareLinkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE6829C919BEA05200FC874F /* Debug */,
+				CE6829CA19BEA05200FC874F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE68299D19BEA05200FC874F /* Project object */;
+}
